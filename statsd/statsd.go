@@ -28,9 +28,9 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/hyperpilotio/snap-relay/protocol"
+	"github.com/hyperpilotio/snap-relay/util"
 	"github.com/intelsdi-x/snap-plugin-lib-go/v1/plugin"
-	"github.com/intelsdi-x/snap-relay/protocol"
-	"github.com/intelsdi-x/snap-relay/util"
 	"github.com/urfave/cli"
 )
 
@@ -49,7 +49,7 @@ var (
 	StatsdUDPPort = 6126
 	// StatsdUDPListenAddrFlag for overriding the listen address
 	StatsdUDPListenPortFlag cli.IntFlag = cli.IntFlag{
-		Name:        "Statsd-udp-port",
+		Name:        "statsd-udp-port",
 		Usage:       "statsd UDP listen port",
 		Value:       StatsdUDPPort,
 		Destination: &StatsdUDPPort,

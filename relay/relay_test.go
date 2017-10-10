@@ -24,8 +24,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/intelsdi-x/snap-relay/graphite"
-	"github.com/intelsdi-x/snap-relay/statsd"
+	"github.com/hyperpilotio/snap-relay/graphite"
+	"github.com/hyperpilotio/snap-relay/statsd"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

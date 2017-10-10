@@ -25,9 +25,9 @@ import (
 	"google.golang.org/grpc/metadata"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/hyperpilotio/snap-relay/graphite"
+	"github.com/hyperpilotio/snap-relay/statsd"
 	"github.com/intelsdi-x/snap-plugin-lib-go/v1/plugin"
-	"github.com/intelsdi-x/snap-relay/graphite"
-	"github.com/intelsdi-x/snap-relay/statsd"
 )
 
 const (

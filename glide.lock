@@ -1,5 +1,5 @@
-hash: 5753d8c228ba79dd8ad93910342e0431f923ceae07d65853658d0e552bdb0a76
-updated: 2017-10-10T10:14:11.163707898+08:00
+hash: 70b618fb933ed9905529e302057ae23a52183118500157deee612b4e7383b6b7
+updated: 2017-10-10T12:14:27.758255694+08:00
 imports:
 - name: github.com/asaskevich/govalidator
   version: 9699ab6b38bee2e02cd3fe8b99ecf67665395c96
@@ -12,7 +12,7 @@ imports:
   - ptypes/duration
   - ptypes/timestamp
 - name: github.com/intelsdi-x/snap
-  version: 5351697eedfd21cb0322ddfad02760243313e499
+  version: bc738d5648e2288b0895c1d7c545edcfbcd4124f
   subpackages:
   - control/plugin
   - control/plugin/client
@@ -35,8 +35,6 @@ imports:
   subpackages:
   - v1/plugin
   - v1/plugin/rpc
-- name: github.com/intelsdi-x/snap-relay
-  version: 096a591d812f8015e526a42ad4698fc01426af64
 - name: github.com/julienschmidt/httprouter
   version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
 - name: github.com/robfig/cron

@@ -16,6 +16,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+ORGANIZATION=hyperpilot
+IMAGE=snap-relay
+VERSION=latest
+
 default: 
 	$(MAKE) deps
 	$(MAKE) all
@@ -41,3 +45,7 @@ check:
 	$(MAKE) test
 all: 
 	bash -c "./scripts/build.sh"
+build-docker: deps all
+	docker build -t $(ORGANIZATION)/$(IMAGE):$(VERSION) .
+push-docker:
+	docker push $(ORGANIZATION)/$(IMAGE):$(VERSION)

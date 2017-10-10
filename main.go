@@ -19,10 +19,10 @@ limitations under the License.
 package main
 
 import (
+	"github.com/hyperpilotio/snap-relay/graphite"
+	"github.com/hyperpilotio/snap-relay/relay"
+	"github.com/hyperpilotio/snap-relay/statsd"
 	"github.com/intelsdi-x/snap-plugin-lib-go/v1/plugin"
-	"github.com/intelsdi-x/snap-relay/graphite"
-	"github.com/intelsdi-x/snap-relay/relay"
-	"github.com/intelsdi-x/snap-relay/statsd"
 )
 
 const (
